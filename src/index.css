@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navLinks li {
+  transition-duration: 0.3s;
+}
+.navLinks li:hover {
+  color: gray;
+}
+
+.navSpan {
+  @apply pl-[9px] pr-[6px] py-[3px] text-[14px] font-bold text-white rounded-tl-[20px] rounded-bl-[20px] rounded-tr-lg rounded-br-lg;
+}
+
